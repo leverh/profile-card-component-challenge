@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+section {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-header {
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 8.3rem;
+}
+
+.image-holder {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -3rem auto 1.6rem auto;
+}
+
+.image-holder img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-body {
+    padding: 0 1.1rem 1.4rem;
+}
+
+.name-age {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.age, 
+.city, 
+.info {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.age {
+    margin-left: 0.5rem;
+    font-weight: 400;
+}
+
+.city {
+    font-size: 1rem;
+}
+
+.card-footer {
+    border-top: 1px solid hsl(0, 3%, 83%);
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.4rem;
+}
+
+.card-footer .item {
+    height: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer .item .value {
+    font-size: 1.2rem;
+}
+
+.card-footer .item .info {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+
+.circles .top,
+.circles .bottom {
+    position: absolute;
+}
+
+.circles .top {
+    top: -18rem;
+    left: -120px;
+}
+
+.circles .bottom {
+    right: -3rem;
+    bottom: -30rem;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10rem;
+    font-size: 11px; 
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.attribution a { 
+    color: hsl(227, 65%, 45%); 
+}
